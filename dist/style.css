@@ -13,6 +13,11 @@ html, body {
 #content {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+#intro {
+    width: 100%;
 }
 
 .cap {
@@ -49,8 +54,8 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100vw;
-    padding: 2vh;
+    width: 100%;
+    margin: 2vh;
     position:fixed;
     z-index: 5;
 }
@@ -60,12 +65,14 @@ html, body {
     font-weight: 700;
     text-decoration: none;
     color: white;
+    margin: 0;
 }
 
 .nav-links-container {
     display: flex;
     flex-direction: row;
     gap:3vw;
+    align-items: center;
 }
 
 .nav-link {
@@ -73,6 +80,7 @@ html, body {
     font-weight: 400;
     text-decoration: none;
     color: white;
+    margin: 0;
 }
 
 .intro-text-container, .about-text-container {
@@ -97,6 +105,7 @@ html, body {
 .main-title {
     font-size: 6rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .sub-title {
@@ -155,6 +164,7 @@ html, body {
     width: 100vw;
     background: rgba(0, 0, 0, .3); 
     padding: 3vw;
+    gap:5vw;
 }
 
 .form, .contact-info{
@@ -196,6 +206,7 @@ html, body {
     color: white;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
+    padding: .5vh;
 }
 
 input:not(:placeholder-shown):invalid, textarea:not(:placeholder-shown):invalid {
@@ -230,4 +241,120 @@ input:focus, textarea:focus {
     text-shadow: none;
     cursor: pointer;
     transition: background-color .3s ease-out .05s, color .3s ease-out .05s;
+}
+
+@media (max-width: 600px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    .home-link {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .nav-links-container {
+        gap:1.5vw;
+    }
+
+    #nav {
+        margin: 1vh;
+        position: relative;
+        right:2%;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
+    }
+
+    .sub-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .intro-text-container {
+        top:67vh;
+    }
+
+    .cap {
+        background-position: 47%;
+    }
+
+    .squam {
+        background-position: 22%;
+    }
+
+    .rr {
+        background-position: 60%;
+    }
+
+    .ice {
+        background-position: 80%;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .about-text-container {
+        left:15%;
+        max-width: 70vw;
+    }
+
+    .sponsor-container {
+        max-width: 70vw;
+        left:15%;
+        top:70vh;
+    }
+
+    .sponsor-logo {
+        width: 25vw;
+        height: auto;
+    }
+
+    .contact-text-container {
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    .contact-info {
+        gap: 1vh;
+        right:4%;
+        position: relative;
+    }
+
+    .form {
+        left:5%;
+        position: relative;
+    }
+
+    .contact-info-sub-box {
+        align-items: center;
+        gap:.5vh;
+    }
+
+    .social-media-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:1vw;
+    }
+
+    .social-media-icons {
+        max-width: 7vw;
+        height: auto;
+    }
+
+    input, textarea {
+        max-width: 80vw;
+    }
+
+    .submit-button {
+        position: relative;
+        right: 10%;
+    }
 }
