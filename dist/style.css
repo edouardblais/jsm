@@ -29,7 +29,7 @@ html, body {
 }
 
 .rr {
-    background-image: url('.img/rr.jpg');
+    background-image: url('./img/rr.jpg');
 }
 
 .squam {
