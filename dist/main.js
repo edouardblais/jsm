@@ -1,1 +1,1 @@
-(()=>{const e=document.querySelectorAll(".background-image"),t=new IntersectionObserver((e=>{e.forEach((e=>{if(e.isIntersecting){const r=e.target.getAttribute("data-bg-img-url");e.target.style.backgroundImage=`url(${r})`,t.unobserve(e.target)}}))}));e.forEach((e=>{t.observe(e)}))})();
+(()=>{const e=document.querySelectorAll(".rr, .ice. squam"),t=new IntersectionObserver((e=>{e.forEach((e=>{if(e.isIntersecting){const r=e.target.getAttribute("data-bg-img-url");e.target.style.backgroundImage=`url(${r})`,t.unobserve(e.target)}}))}));e.forEach((e=>{t.observe(e)}))})();

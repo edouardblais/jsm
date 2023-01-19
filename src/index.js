@@ -1,4 +1,4 @@
-const bgImgs = document.querySelectorAll(".background-image");
+const bgImgs = document.querySelectorAll(".rr, .ice. squam");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
