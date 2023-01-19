@@ -113,7 +113,7 @@ html, body {
     align-items: center;
     justify-content: center;
     position: relative;
-    top:30vh;
+    top:25vh;
     left: 53vw;
     max-width: 40vw;
 }
@@ -237,6 +237,118 @@ input:focus, textarea:focus {
     text-shadow: none;
     cursor: pointer;
     transition: background-color .3s ease-out .05s, color .3s ease-out .05s;
+}
+
+@media (max-width: 1024px) {
+    .home-link {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .nav-links-container {
+        gap:1.5vw;
+    }
+
+    #nav {
+        margin: 1vh;
+        position: relative;
+        right:2%;
+    }
+
+    .main-title {
+        font-size: 3.5rem;
+    }
+
+    .sub-title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .intro-text-container {
+        top:67vh;
+    }
+
+    .cap {
+        background-position: 47%;
+    }
+
+    .squam {
+        background-position: 22%;
+    }
+
+    .rr {
+        background-position: 60%;
+    }
+
+    .ice {
+        background-position: 80%;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .about-text-container {
+        left:15%;
+        max-width: 70vw;
+    }
+
+    .sponsor-container {
+        max-width: 70vw;
+        left:15%;
+        top:70vh;
+    }
+
+    .sponsor-logo {
+        width: 25vw;
+        height: auto;
+    }
+
+    .contact-text-container {
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    .contact-info {
+        gap: 1vh;
+        right:4%;
+        position: relative;
+    }
+
+    .form {
+        left:5%;
+        position: relative;
+    }
+
+    .contact-info-sub-box {
+        align-items: center;
+        gap:.5vh;
+    }
+
+    .social-media-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:1vw;
+    }
+
+    .social-media-icons {
+        max-width: 7vw;
+        height: auto;
+    }
+
+    input, textarea {
+        max-width: 80vw;
+    }
+
+    .submit-button {
+        position: relative;
+        right: 10%;
+    }
 }
 
 @media (max-width: 600px) {
