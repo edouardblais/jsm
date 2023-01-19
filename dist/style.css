@@ -21,23 +21,19 @@ html, body {
 }
 
 .cap {
-    background-image: url('../src/img/cap.jpg');
-}
-
-.zebree {
-    background-image: url('../src/img/zebree.jpg');
+    background-image: url('./img/cap.jpg');
 }
 
 .ice {
-    background-image: url('../src/img/ice.jpg');
+    background-image: url('./img/ice.jpg');
 }
 
 .rr {
-    background-image: url('../src/img/rr.jpg');
+    background-image: url('.img/rr.jpg');
 }
 
 .squam {
-    background-image: url('../src/img/squam.jpg');
+    background-image: url('./img/squam.jpg');
 }
 
 .background-image {
