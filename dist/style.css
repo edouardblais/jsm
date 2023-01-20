@@ -240,6 +240,10 @@ input:focus, textarea:focus {
 }
 
 @media (max-width: 1024px) {
+    .background-image {
+        background-attachment: scroll;
+    }
+
     .home-link {
         font-size: 1.5rem;
     }
@@ -354,6 +358,10 @@ input:focus, textarea:focus {
 @media (max-width: 600px) {
     html, body {
         font-size: 10px;
+    }
+
+    .background-image {
+        background-attachment: scroll;
     }
 
     .home-link {
